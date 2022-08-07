@@ -1,4 +1,4 @@
-# ASP.NET-Emailing-with-minimal-api
+# ASP.NET 6 Emailing with Minimal APIs
 Sending Emails in ASP.NET 6 &amp; Minimal apis Apps using Gmail smtp
 
 To successfuly start the project we have to follow the following steps:
