@@ -3,7 +3,7 @@ Sending Emails in ASP.NET 6 &amp; Minimal apis Apps using Gmail smtp
 
 To successfuly start the project we have to follow the following steps:
 
-### Enable 2 Step-Verification : 
+### Enable 2 Step-Verification : (skip this part if you already have 2FA enabled)
 Go to https://myaccount.google.com/security
 
 - Then under the “Signing in to Google” section, we can see that 2-Step Verification is off – so we have to click on it
