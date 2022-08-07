@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Emailing", "ASP.NET Emailing\ASP.NET Emailing.csproj", "{7779F8D7-376D-4791-948D-8EAD020E614D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{0C555DF5-661E-46B9-A0F5-C0002C7D58B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7779F8D7-376D-4791-948D-8EAD020E614D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7779F8D7-376D-4791-948D-8EAD020E614D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7779F8D7-376D-4791-948D-8EAD020E614D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7779F8D7-376D-4791-948D-8EAD020E614D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C555DF5-661E-46B9-A0F5-C0002C7D58B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C555DF5-661E-46B9-A0F5-C0002C7D58B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C555DF5-661E-46B9-A0F5-C0002C7D58B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C555DF5-661E-46B9-A0F5-C0002C7D58B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {758394D2-08DB-44F3-97E1-740778C22683}
+	EndGlobalSection
+EndGlobal
