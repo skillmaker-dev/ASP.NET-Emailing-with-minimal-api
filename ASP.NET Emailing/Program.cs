@@ -9,13 +9,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// we add our services
 var emailConfig = builder.Configuration
         .GetSection("EmailConfiguration")
         .Get<EmailConfiguration>();
+
 builder.Services.AddSingleton(emailConfig);
+
 builder.Services.AddScoped<IEmailSender, EmailSender>();
+
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
+//disable limits for file upload
 builder.Services.Configure<FormOptions>(o => {
     o.ValueLengthLimit = int.MaxValue;
     o.MultipartBodyLengthLimit = int.MaxValue;
